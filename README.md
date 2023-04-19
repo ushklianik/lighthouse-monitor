@@ -8,7 +8,7 @@ Node.js application that uses Puppeteer and Lighthouse to run performance tests 
 
 ## Installation
 - Clone the repository
-git clone https://github.com/example/clientSideTest.git
+git clone https://github.com/ushklianik/lighthouse-monitor.git
 
 - Install the necessary dependencies
 npm install @influxdata/influxdb-client
