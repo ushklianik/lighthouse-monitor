@@ -64,7 +64,7 @@ Run Lighthouse measurements for each URL in the specified CSV file by calling th
 await test.iterateUrls(urlsPath, "USER_TYPE");
 
 If necessary, log in to the application by calling the login method. Note that this method should be preconfigured by adjusting the login method in the /code/clientSideTest.js file to match the login requirements of your application:
-await test.login("https://www.candidate.pmi.org");
+await test.login("https://blazedemo.com/");
 
 Close the browser and all pages by calling the close method:
 await test.close();
